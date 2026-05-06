@@ -1,0 +1,17 @@
+{
+  "name": "code-review-agent",
+  "version": "1.0.0",
+  "description": "AI-powered code review agent for Vue 3 projects using Claude",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node test.js"
+  },
+  "packageManager": "pnpm@latest",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.36.0",
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  }
+}
