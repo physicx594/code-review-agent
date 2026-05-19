@@ -74,7 +74,7 @@ app.get('/health', (_req, res) => {
   res.json({ status: 'ok', timestamp: new Date().toISOString() });
 });
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3210;
 app.listen(PORT, () => {
   console.log(`Code Review Agent 已啟動，監聽 port ${PORT}`);
 });
